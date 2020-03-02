@@ -1,0 +1,66 @@
+http://rbpdb.ccbr.utoronto.ca/download.php
+http://rbpdb.ccbr.utoronto.ca/docs/RBPDB_README_v1.2.txt
+2) Description of tables
+
+a. proteins
+id - unique id number
+annotID - annotation ID (Ensembl/Flybase/Wormbase/etc)
+createDate - date the protein was added to the database
+updateDate - last curation date for the protein
+geneName - official (HGNC/MGI/Flybase) gene symbol
+geneDesc - gene description
+species - species name in binomial nomenclature, eg "Homo sapiens"
+taxID - NCBI taxonomy ID for the species
+domains - string describing the domains (see below for abbreviations)
+flag - if 1, protein has been flagged and will not appear on the site. Don't use these proteins in
+	your analyses!
+flagNote - reason for flag (eg: pseudogene, non RNA-binding, etc)
+aliases - alternative gene names
+PDBIDs - Protein Data Bank ID(s) of structures containing RNA-bound protein
+UniProtIDs - UniProt ID(s) for the gene
+
+b. experiments
+id - unique id number
+pmID - PubMed ID for the experiment
+exptype - type of experiment
+notes - notes for this experiment
+sequence_motif - motifs reported (possibly multiple, separated by ; )
+SELEX_file - raw sequences extracted from publications
+aligned_SELEX_file - SELEX sequences aligned as in publication,
+	with the reported motif enclosed in brackets
+aligned_motif_file - motif sequences as reported in the publication, used to construct PFMs
+logo_file - filename for logo
+PWM_file - filename for PWM
+PFM_file - filename for PFM
+invivo_notes - for in vivo (RIP-chip/seq/etc), where to find the data
+	(may be an NCBI GEO accession number)
+invivo_file - file name with the sequences bound in vivo
+secondary_structure - 1 if the paper reported a secondary structure for the RNA sequence
+flag - if 1, experiment has been flagged and will not appear on the site. Don't use these
+	experiments in your analyses!
+flagNote - reason for flag
+
+c. protExp
+id - unique id number
+protID - id number for the protein
+expID - id number for the experiment
+homolog - 1 if the experiment was performed on a non-human/mouse/fly/worm species
+
+5) Domain abbreviations
+
+RRM - RNA recognition motif
+KH - K homology
+Lsm - Like Sm
+Znf_CCCH - CCCH zinc finger
+Znf_C2H2 - C2H2 zinc finger
+CSD - Cold-shock domain
+PUA - Pseudouridine synthase and archaeosine transglycosylase
+S1 - Ribosomal protein S1-like
+Surp - Surp module/SWAP
+La - Lupus La RNA-binding
+PWI - PWI domain
+YTH - YTH domain
+Pum - Pumilio-like repeat
+THUMP - THUMP domain
+SAM - Sterile alpha motif
+TROVE - TROVE module
