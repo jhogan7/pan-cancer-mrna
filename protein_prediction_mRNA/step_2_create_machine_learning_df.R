@@ -13,7 +13,9 @@ library(ggplot2)
 
 ##############CREATE COLON DATAFRAME#################
 colon_df = read_csv('colon_dataset_df.csv') %>% select(-X1)
-out_df = pivot_wider()
+
+#TODO select only genes that are RBP
+out_df = pivot_wider(colon_df, values_from=c(Gene_Name, protein), names_from=Patient_ID)
 
 endometrial_df = read_csv('endometrial_dataset_df.csv')
 
