@@ -1,0 +1,88 @@
+Gene,Cancer,tumorsupressor_oncogene
+ACVR1,UCEC,oncogene
+AKT1,UCEC,oncogene
+ARHGAP35,UCEC,tsg
+ARID1A,LUAD,tsg
+ARID1A,UCEC,tsg
+ARID5B,UCEC,possible tsg
+ATF7IP,UCEC,possible tsg
+ATM,UCEC,tsg
+ATM,LUAD,tsg
+ATM,KIRC,tsg
+ATR,UCEC,possible tsg
+BAP1,KIRC,tsg
+BCOR,UCEC,possible oncogene
+BRAF,LUAD,oncogene
+CCND1,UCEC,possible oncogene
+CDKN2A,LUAD,possible tsg
+CHD3,UCEC,possible tsg
+CHD4,UCEC,possible oncogene
+CTCF,UCEC,tsg
+CTNNB1,LUAD,oncogene
+CTNNB1,UCEC,oncogene
+CTNND1,UCEC,tsg
+DICER1,UCEC,possible oncogene
+EGFR,LUAD,oncogene
+EP300,UCEC,tsg
+ERBB2,UCEC,oncogene
+ERBB3,UCEC,oncogene
+FAT1,UCEC,tsg
+FBXW7,UCEC,possible oncogene
+FGFR2,UCEC,oncogene
+FOXA2,UCEC,possible tsg
+INPPL1,UCEC,possible tsg
+KANSL1,UCEC,tsg
+KDM5C,KIRC,tsg
+KEAP1,LUAD,possible tsg
+KIF1A,KIRC,tsg
+KMT2B,UCEC,tsg
+KMT2C,UCEC,tsg
+KRAS,UCEC,oncogene
+KRAS,LUAD,oncogene
+MAP3K1,UCEC,tsg
+MAX,UCEC,oncogene
+MET,LUAD,possible tsg
+MGA,LUAD,tsg
+MSH6,UCEC,tsg
+MTOR,KIRC,oncogene
+MYCN,UCEC,oncogene
+NF1,LUAD,tsg
+NFE2L2,UCEC,oncogene
+NRAS,UCEC,oncogene
+PBRM1,UCEC,tsg
+PBRM1,KIRC,tsg
+PDS5B,UCEC,tsg
+PIK3CA,KIRC,possible oncogene
+PIK3CA,LUAD,oncogene
+PIK3CA,UCEC,oncogene
+PIK3R1,UCEC,tsg
+PIK3R2,UCEC,oncogene
+PPP2R1A,UCEC,oncogene
+PTEN,UCEC,tsg
+PTEN,KIRC,possible tsg
+RB1,UCEC,tsg
+RB1,LUAD,tsg
+RBM10,LUAD,tsg
+RIT1,LUAD,unknown
+RPL22,UCEC,unknown
+RRAS2,UCEC,oncogene
+SCAF4,UCEC,tsg
+SETD2,LUAD,tsg
+SETD2,KIRC,tsg
+SIN3A,UCEC,tsg
+SMARCA4,LUAD,possible tsg
+SMC1A,UCEC,oncogene
+SOS1,UCEC,oncogene
+SOX17,UCEC,possible oncogene
+SPOP,UCEC,oncogene
+STK11,LUAD,tsg
+TAF1,UCEC,oncogene
+TCEB1,KIRC,possible tsg
+TP53,KIRC,possible tsg
+TP53,UCEC,possible tsg
+TP53,LUAD,possible tsg
+U2AF1,UCEC,oncogene
+U2AF1,LUAD,oncogene
+VHL,KIRC,tsg
+ZFHX3,UCEC,possible tsg
+ZMYM2,UCEC,tsg
